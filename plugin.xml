@@ -43,9 +43,13 @@
                 <string>instagram</string>
             </array>
         </config-file>
-        
-        
-        
+		
+		<config-file parent="UIBackgroundModes" target="*-Info.plist">
+			<array>
+				<string>bluetooth-central</string>
+			</array>
+		</config-file>
+
     </platform>
     
 </plugin>
